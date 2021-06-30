@@ -1,0 +1,6 @@
+config:
+  host: testing123-deploy.nonp-dev-4.use1.eng-nonprod.flexport.internal
+  namespace: testing123-deploy-dev
+  image:
+    name: artifactory.flexport.io/testing123-deploy-docker-dev-local/testing123-deploy
+    tag: 0.0.1-SNAPSHOT

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testing123-deploy"
+  description: "Test Spring Boot Application Deploys"
+  annotations:
+    github.com/project-slug: fp-mt-org/testing123-deploy
+    backstage.io/techdocs-ref: url:https://github.com/fp-mt-org/testing123-deploy
+    backstage.io/kubernetes-id: testing123-deploy
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "devx"

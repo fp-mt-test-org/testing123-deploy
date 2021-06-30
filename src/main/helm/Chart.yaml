@@ -1,0 +1,6 @@
+apiVersion: v2
+name: testing123-deploy
+description: Chart for creating testing123-deploy and ingress mapping our Flexport EKS clusters
+
+type: application
+version: 0.1.0
